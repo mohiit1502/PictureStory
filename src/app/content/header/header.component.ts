@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostBinding } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  @HostBinding('class.container-fluid') expand: boolean = false;
+
   constructor() { }
 
   ngOnInit() {
+    this.expand = true;
   }
 
 }
