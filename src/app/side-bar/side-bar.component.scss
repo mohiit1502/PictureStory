@@ -4,6 +4,7 @@ $themeColor-Dark:#E3E2DF;
 $theme-font: verdana, sans-serif;
 // $theme-supplementer: #f39c12;
 $theme-supplementer: #5D001E;
+$theme-supplementer-transparent: rgba(93,0,30,0.2);
 
 // app-root {
 //     font-family: 'Poppins', sans-serif;
@@ -11,7 +12,8 @@ $theme-supplementer: #5D001E;
 // }
 
 :host {
-    background: $theme-supplementer;
+    background: $theme-supplementer-transparent;
+    z-index: 20;
 }
 
 p {
@@ -71,7 +73,7 @@ span {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: $theme-supplementer;
+    background: $theme-supplementer-transparent;
     color: $themeColor-Dark;
     transition: all 0.3s;
 }
