@@ -4,6 +4,7 @@ $themeColor-Dark:#E3E2DF;
 $theme-font: verdana, sans-serif;
 // $theme-supplementer: #f39c12;
 $theme-supplementer: #5D001E;
+$theme-supplementer-transparent: rgba(93,0,30,0.3);
 
 .searchbar {
     display: flex;
@@ -13,7 +14,7 @@ $theme-supplementer: #5D001E;
     display: flex;
     padding: 0.9em;
     // border-right: 1px solid #c99034;
-    background-color: $theme-supplementer;
+    background-color: $theme-supplementer-transparent;
     width: 4%;
     // margin-bottom: 40px;
     border-radius: 0.4em 0 0 0.4em;
