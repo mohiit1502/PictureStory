@@ -1,3 +1,16 @@
 p {
     padding: 20px;
 }
+
+.row { 
+    display: flex; flex-flow: row wrap; 
+} 
+.row:after { 
+    content: ''; width: 100%; 
+} 
+.box { 
+    flex: 1; 
+} 
+.box:nth-of-type(n + 4) { 
+    order: 1; 
+}

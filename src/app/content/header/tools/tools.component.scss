@@ -22,11 +22,14 @@ a[data-toggle="collapse"] {
 div.navbar-collapse li {
     float: left;
     a.nav-link i.far {
-        color: $theme-supplementer;
+        color: $themeColor-Light;
         font-size: 1.6em;
         padding: 0.2em;
     }
 }
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-36 { font-size: 36px; }
 
 //OVERWRITES
 .nav-link {
