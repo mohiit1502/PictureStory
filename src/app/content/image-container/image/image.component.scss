@@ -1,5 +1,11 @@
 //OVERWRITES
+:host {
+    margin: 0 20px;
+    overflow: auto;
+
+}
 .card {
     width: 20rem;
     margin: 20px auto;
+    overflow: auto
 }
