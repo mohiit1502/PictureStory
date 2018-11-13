@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatCheckboxModule } from '@angular/material';
+import { MatCardModule } from '@angular/material/card';
+import { MatDividerModule } from '@angular/material/divider';
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
 
@@ -62,7 +64,9 @@ import { HomeComponent } from './content/image-container/home/home.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatCardModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

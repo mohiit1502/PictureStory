@@ -1,4 +1,4 @@
-<div class="card">
+<!-- <div class="card">
   <img class="card-img-top" src="{{image.imageUrl}}" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">{{image.imageTitle}}</h5>
@@ -13,4 +13,21 @@
     <a href="#" class="card-link">Card link</a>
     <a href="#" class="card-link">Another link</a>
   </div>
-</div>
+</div> -->
+
+<mat-card class="card">
+  <mat-card-header>
+    <div mat-card-avatar class="header-image"></div>
+    <mat-card-title>{{image.imageTitle}}</mat-card-title>
+    <mat-card-subtitle>Nature</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="{{image.imageUrl}}" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>{{image.imageDescription}}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>
+<mat-divider></mat-divider>

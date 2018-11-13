@@ -14,3 +14,7 @@ p {
 .box:nth-of-type(n + 4) { 
     order: 1; 
 }
+
+:host {
+    margin: auto;
+}
