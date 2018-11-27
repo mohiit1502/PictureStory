@@ -3,7 +3,9 @@ p {
 }
 
 .row { 
-    display: flex; flex-flow: row wrap; 
+    display: flex; 
+    flex-flow: row wrap; 
+    justify-content: space-between;
 } 
 .row:after { 
     content: ''; width: 100%; 
