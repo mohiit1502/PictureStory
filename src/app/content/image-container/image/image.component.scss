@@ -1,9 +1,14 @@
 //OVERWRITES
 :host {
-    margin: 0 20px;
+    margin: 0 1em;
     overflow: auto;
-
 }
+// .card {
+//     width: 20rem;
+//     margin: 20px auto;
+//     overflow: auto
+// }
+
 .card {
     width: 20rem;
     margin: 20px auto;
@@ -17,4 +22,14 @@
 .image {
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: cover;
+    max-width: 400px;
+}
+  
+.header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+
+mat-divider {
+    margin: 1em 0;
 }
