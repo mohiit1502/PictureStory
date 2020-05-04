@@ -21,6 +21,7 @@ import { ToolsComponent } from './content/header/tools/tools.component';
 import { UploadComponent } from './content/header/tools/upload/upload.component';
 import { ImageContainerComponent } from './content/image-container/image-container.component';
 import { ImageComponent } from './content/image-container/image/image.component';
+import { ImageComponent as ViewerImageComponent } from './content/image-viewer/image/image.component';
 import { VerticalImageComponent } from './content/image-container/image/vertical-image/vertical-image.component';
 import { HorizontalImageComponent } from './content/image-container/image/horizontal-image/horizontal-image.component';
 import { PictureComponent } from './content/image-container/image/picture/picture.component';
@@ -46,6 +47,7 @@ import { HomeComponent } from './content/image-container/home/home.component';
     UploadComponent,
     ImageContainerComponent,
     ImageComponent,
+    ViewerImageComponent,
     PictureComponent,
     DescriptionComponent,
     VerticalImageComponent,

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-image',
+  selector: 'app-viewer-image',
   templateUrl: './image.component.html',
   styleUrls: ['./image.component.scss']
 })

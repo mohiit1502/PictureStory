@@ -1,6 +1,8 @@
-$themeColor-Light: #EEE2DC;
+// $themeColor-Light: #EEE2DC;
 // $themeColor-Dark:#252525;
-$themeColor-Dark:#E3E2DF;
+// $themeColor-Dark:#E3E2DF;
+$themeColor-Light: #CBCBCB;
+$themeColor-Dark:#141414;
 $theme-font: verdana, sans-serif;
 // $theme-supplementer: #f39c12;
 $theme-supplementer: #5D001E;
@@ -12,7 +14,7 @@ $theme-supplementer-transparent: rgba(93,0,30,0.3);
 // }
 
 :host {
-    background: $theme-supplementer-transparent;
+    // background: $theme-supplementer-transparent;
     z-index: 20;
 }
 
@@ -67,14 +69,14 @@ span {
     display: flex;
     align-items: stretch;
     font-family: 'Poppins', sans-serif;
-    background-color: $themeColor-Dark;
+    background-color: $themeColor-Light;
 }
 
 #sidebar {
     min-width: 250px;
     max-width: 250px;
     // background: $theme-supplementer-transparent;
-    color: $themeColor-Dark;
+    color: $themeColor-Light;
     transition: all 0.3s;
 }
 
@@ -161,7 +163,7 @@ span {
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
-    color: $theme-supplementer;
+    color: $themeColor-Light;
     background:$themeColor-Dark;
 }
 

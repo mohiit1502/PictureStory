@@ -4,6 +4,7 @@ $themeColor-Dark:#E3E2DF;
 $theme-font: verdana, sans-serif;
 // $theme-supplementer: #f39c12;
 $theme-supplementer: #5D001E;
+$theme-background-secondary: #007BEB;
 
 // app-root {
 //     font-family: 'Poppins', sans-serif;
@@ -25,6 +26,43 @@ a:focus {
     text-decoration: none;
     transition: all 0.3s;
 }
+
+.th-bg-color-light {
+    background-color: $themeColor-Light;
+}
+
+.th-color-light {
+    color: $themeColor-Light;
+}
+
+.th-bg-color-dark {
+    background-color: $themeColor-Dark;
+}
+
+.th-color-dark {
+    color: $themeColor-Dark;
+}
+
+.th-base-font {
+    font-family: $theme-font;
+}
+
+.th-bg-color-supplementer {
+    background-color: $theme-supplementer;
+}
+
+.th-color-supplementer {
+    color: $theme-supplementer;
+}
+
+.th-bg-color-secondary {
+    background-color: $theme-background-secondary;
+}
+
+.th-color-secondary {
+    color: $theme-background-secondary;
+}
+
 
 .navbar {
     padding: 15px 10px;
@@ -67,7 +105,7 @@ span {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: $theme-supplementer;
+    background: $themeColor-Dark;
     color: $themeColor-Dark;
     transition: all 0.3s;
 }
@@ -145,7 +183,7 @@ span {
 }
 
 #sidebar ul li a:hover {
-    color: $theme-supplementer;
+    color: $themeColor-Dark;
     background: $themeColor-Light;
 }
 
@@ -155,7 +193,7 @@ span {
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
-    color: $theme-supplementer;
+    color: $themeColor-Light;
     background:$themeColor-Dark;
 }
 
@@ -293,7 +331,7 @@ ADDITIONS
   width: 2em;
   border-right: 1px solid #c99034;
 //   background-color: #f5d38b;
-  background-color: $theme-supplementer;
+  background-color: $themeColor-Dark;
   width: 4%;
   margin-bottom: 40px;
   border-radius: 4px 0 0 4px;
@@ -325,11 +363,11 @@ ADDITIONS
 }
 
 .logotext {
-  color: $theme-supplementer;
+  color: $themeColor-Dark;
 }
 
 #content nav div.collapse li a.nav-link i.far {
-  color: $theme-supplementer;
+  color: $themeColor-Light;
   font-size: 1.8em;
   padding: 0.2em;
 }

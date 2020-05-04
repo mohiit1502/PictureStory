@@ -20,3 +20,9 @@ p {
 :host {
     margin: auto;
 }
+
+.container-fluid {
+    padding: 0;
+    border-top: 3px solid darkblue;
+    z-index: 30;
+}

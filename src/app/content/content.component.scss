@@ -1,17 +1,21 @@
+$themeColor-Dark:#141414;
+
 :host {
     width: 100%;
+    margin: 0 20px;
 }
 
 .background-image { 
-    background-image: url("/assets/images/BG.jpg");
-    background-size: cover;
-    -webkit-background-size: cover;
-    display: block;
-    filter: blur(15px);
-    -webkit-filter: blur(15px);
+    // background-image: url("/assets/images/58930.jpg");
+    background: $themeColor-Dark;
+    // background-size: cover;
+    // -webkit-background-size: cover;
+    // display: block;
+    // filter: blur(15px);
+    // -webkit-filter: blur(15px);
     height: 100%;
     left: 0;
     position: fixed;
     right: 0;
     /* z-index: 1; */
-  }
+}

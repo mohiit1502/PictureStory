@@ -1,6 +1,8 @@
-$themeColor-Light: #EEE2DC;
+// $themeColor-Light: #EEE2DC;
 // $themeColor-Dark:#252525;
-$themeColor-Dark:#E3E2DF;
+// $themeColor-Dark:#E3E2DF;
+$themeColor-Light: #CBCBCB;
+$themeColor-Dark:#141414;
 $theme-font: verdana, sans-serif;
 // $theme-supplementer: #f39c12;
 $theme-supplementer: #5D001E;
@@ -11,7 +13,7 @@ $theme-supplementer: #5D001E;
 // }
 
 :host {
-    background: $theme-supplementer;
+    background: $themeColor-Dark;
 }
 
 p {
@@ -71,7 +73,7 @@ span {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: $theme-supplementer;
+    background: $themeColor-Dark;
     color: $themeColor-Dark;
     transition: all 0.3s;
 }
@@ -149,7 +151,7 @@ span {
 }
 
 #sidebar ul li a:hover {
-    color: $theme-supplementer;
+    color: $themeColor-Dark ;
     background: $themeColor-Light;
 }
 
@@ -159,8 +161,8 @@ span {
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
-    color: $theme-supplementer;
-    background:$themeColor-Dark;
+    color: $themeColor-Light;
+    background: $themeColor-Dark;
 }
 
 a[data-toggle="collapse"] {
@@ -297,7 +299,7 @@ ADDITIONS
   width: 2em;
   border-right: 1px solid #c99034;
 //   background-color: #f5d38b;
-  background-color: $theme-supplementer;
+  background-color: $themeColor-Dark;
   width: 4%;
   margin-bottom: 40px;
   border-radius: 4px 0 0 4px;
@@ -329,11 +331,11 @@ ADDITIONS
 }
 
 .logotext {
-  color: $theme-supplementer;
+  color: $themeColor-Dark;
 }
 
 #content nav div.collapse li a.nav-link i.far {
-  color: $theme-supplementer;
+  color: $themeColor-Dark;
   font-size: 1.8em;
   padding: 0.2em;
 }
@@ -420,7 +422,7 @@ ADDITIONS
   OVERRIDES
   --------------------------------------------------*/
   .btn:not(.featureRequest) {
-    background-color: $theme-supplementer;
+    background-color: $themeColor-Dark;
     color: $themeColor-Dark
   }
 
